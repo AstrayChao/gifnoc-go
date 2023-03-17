@@ -55,7 +55,7 @@ func NewVersionList() *VersionList {
 	}
 }
 
-func (list *VersionList) length() int {
+func (list *VersionList) Length() int {
 	return list.len
 }
 
